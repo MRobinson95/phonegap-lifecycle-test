@@ -8,9 +8,9 @@ var launched_count = 0;
     }
 	
 	function updateDisplay() {
-		alert("Application launched: " + launched_count);
-		alert("Application paused: " + paused_count);
-		alert("Application resumed: " + resumed_count);
+		$("#launched").text("Application launched: " + launched_count);
+		$("#resumed").text("Application paused: " + paused_count);
+		$("#paused").text("Application resumed: " + resumed_count);
 	}
 
 
