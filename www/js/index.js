@@ -8,8 +8,11 @@
     }
 	
 	function updateDisplay() {
-		$("#value").text("Value is: " + window.localStorage.getItem("Book"));
-		
+		$("#value").text("Value is: " + window.localStorage.getItem("Pen"));
+		$("#value1").text("Value is: " + window.localStorage.getItem("Book"));
+		$("#value2").text("Value is: " + window.localStorage.getItem("Food"));
+		$("#value3").text("Value is: " + window.localStorage.getItem("Drink"));
+		$("#value4").text("Value is: " + window.localStorage.getItem("Pen1"));
 	}
 
 
