@@ -1,7 +1,7 @@
     var chocoInfo = {"Name": "", "Energy": "", "Carbs": "", "Fat": "");
 	var chocoString = "";
 	var getChoco = "";
-	var chocoJSON = "";
+	var chocoJSON;
 	
 	function storage() 
 	{
@@ -20,10 +20,7 @@
 	function updateDisplay() 
 	{
 		$("#value").text("Value is: " + window.localStorage.getItem("Pen1"));
-		$("#value1").text("Carbs are: " + chocoJSON.Carbs);
-		
-		
-		
+		$("#value1").text("Carbs are: " + chocoInfo.Carbs);	
 	}
 
 
