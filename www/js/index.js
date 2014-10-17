@@ -1,4 +1,4 @@
-    var chocoInfo = {"Name": "", "Energy": "", "Carbs": "", "Fat": "");
+    //var chocoInfo = {"Name": "", "Energy": "", "Carbs": "", "Fat": "");
 
 	
 	function storage() 
@@ -8,7 +8,7 @@
 		storeData("Food", "Haribo")
 		storeData("Drink", "Gone")
 		storeData("Pen1", "Blue")
-		chocolate("Mars", "1888", "68.9", "17.1");
+		//chocolate("Mars", "1888", "68.9", "17.1");
 		
 		updateDisplay();
 		
@@ -17,7 +17,7 @@
 	function updateDisplay() 
 	{
 		$("#value").text("Value is: " + window.localStorage.getItem("Pen1"));
-		$("#value1").text("Carbs are: " + chocoInfo.Carbs);	
+		//$("#value1").text("Carbs are: " + chocoInfo.Carbs);	
 	}
 
 
@@ -26,11 +26,12 @@
 		window.localStorage.setItem(storageKey, storageValue);
     }
 	
-	function chocolate(Name, Energy, Carbs, Fat)
+	/*function chocolate(Name, Energy, Carbs, Fat)
 	{
 		chocoInfo.Name = Name;
 		chocoInfo.Energy = Energy;
 		chocoInfo.Carbs = Carbs;
 		chocoInfo.Fat = Fat;
 
-	}
+	}*/
+	
